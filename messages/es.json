@@ -1,0 +1,139 @@
+{
+  "portal": {
+    "title": "Solicitar Empleo — RBM Services Inc.",
+    "subtitle": "Únete a nuestro equipo. Estamos contratando en Utah, Nevada, Arizona y Texas.",
+    "languageSelect": "Selecciona tu idioma",
+    "english": "English",
+    "spanish": "Español",
+    "steps": {
+      "personal": "Información Personal",
+      "workAuth": "Autorización de Trabajo",
+      "details": "Detalles de la Solicitud",
+      "review": "Revisar y Enviar"
+    },
+    "personal": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "phone": "Número de Teléfono",
+      "email": "Correo Electrónico",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "state": "Estado / Ubicación donde Aplica",
+      "selectState": "Selecciona un estado"
+    },
+    "workAuth": {
+      "documentType": "Tipo de Documento",
+      "selectDocument": "Selecciona el tipo de documento",
+      "documentExpiration": "Fecha de Vencimiento del Documento",
+      "countryOfOrigin": "País de Origen",
+      "authorizedToWork": "Estoy autorizado para trabajar en los Estados Unidos"
+    },
+    "details": {
+      "referralSource": "¿Cómo se enteró de nosotros?",
+      "selectReferral": "Selecciona la fuente",
+      "referralName": "Nombre del Referente (si alguien lo recomendó)",
+      "positionInterest": "Puesto de Interés",
+      "availableStartDate": "Fecha de Disponibilidad"
+    },
+    "review": {
+      "title": "Revise su Solicitud",
+      "consent": "Doy mi consentimiento para la recopilación y uso de mi información con fines laborales. Certifico que la información proporcionada es correcta y completa.",
+      "submit": "Enviar Solicitud",
+      "edit": "Editar"
+    },
+    "success": {
+      "title": "¡Solicitud Enviada!",
+      "message": "Gracias por aplicar a RBM Services Inc. Nuestro equipo de Recursos Humanos revisará su solicitud y se pondrá en contacto pronto.",
+      "reference": "Su número de referencia"
+    },
+    "navigation": {
+      "next": "Siguiente",
+      "back": "Atrás",
+      "step": "Paso {current} de {total}"
+    },
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Por favor ingrese un correo electrónico válido",
+      "mustAuthorize": "Debe confirmar la autorización de trabajo para aplicar",
+      "mustConsent": "Debe dar su consentimiento para enviar su solicitud"
+    },
+    "meta": {
+      "title": "Solicitar Empleo en RBM Services Inc.",
+      "description": "Aplique en línea para puestos de limpieza y conserjería en RBM Services Inc. en Utah, Nevada, Arizona y Texas. Solicitud bilingüe disponible en inglés y español."
+    }
+  },
+  "nav": {
+    "dashboard": "Panel de Control",
+    "applicants": "Solicitantes",
+    "settings": "Configuración",
+    "qrCodes": "Códigos QR",
+    "logout": "Cerrar Sesión"
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "totalApplicants": "Total de Solicitantes",
+    "hiredThisMonth": "Contratados Este Mes",
+    "hireRate": "Tasa de Contratación",
+    "inProcess": "En Proceso",
+    "portalPending": "Solicitudes del Portal Pendientes",
+    "thisMonth": "Este mes",
+    "byState": "Por Estado"
+  },
+  "applicants": {
+    "title": "Rastreador de Solicitantes",
+    "addNew": "Agregar Solicitante",
+    "export": "Exportar a Excel",
+    "search": "Buscar por nombre o país...",
+    "filterStatus": "Filtrar por estado",
+    "filterManager": "Filtrar por gerente",
+    "filterHrRep": "Filtrar por rep. de RRHH",
+    "filterReferral": "Filtrar por referencia",
+    "columns": {
+      "date": "Fecha",
+      "name": "Nombre",
+      "docType": "Documento",
+      "docExpiry": "Vencimiento",
+      "country": "País",
+      "status": "Estado",
+      "referral": "Referencia",
+      "manager": "Gerente",
+      "hrRep": "Rep. RRHH",
+      "notes": "Notas",
+      "source": "Fuente",
+      "actions": "Acciones"
+    },
+    "source": {
+      "manual": "Manual",
+      "portal": "Portal"
+    },
+    "convert": "Convertir a Solicitante"
+  },
+  "settings": {
+    "title": "Configuración",
+    "dropdowns": "Opciones de Listas",
+    "managers": "Gerentes",
+    "hrReps": "Representantes de RRHH",
+    "users": "Usuarios",
+    "addOption": "Agregar Opción",
+    "addManager": "Agregar Gerente",
+    "addHrRep": "Agregar Rep. RRHH",
+    "inviteUser": "Invitar Usuario",
+    "active": "Activo",
+    "inactive": "Inactivo"
+  },
+  "qrCodes": {
+    "title": "Códigos QR por Estado",
+    "description": "Descargue los códigos QR para el portal de solicitudes de cada estado. Pueden imprimirse y entregarse a los gerentes para el reclutamiento en campo.",
+    "download": "Descargar PNG",
+    "urlLabel": "URL del Portal"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "loading": "Cargando...",
+    "noData": "No se encontraron datos",
+    "allStates": "Todos los Estados"
+  }
+}
