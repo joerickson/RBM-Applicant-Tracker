@@ -1,0 +1,139 @@
+{
+  "portal": {
+    "title": "Apply Now — RBM Services Inc.",
+    "subtitle": "Join our team. We are hiring across Utah, Nevada, Arizona, and Texas.",
+    "languageSelect": "Select your language",
+    "english": "English",
+    "spanish": "Español",
+    "steps": {
+      "personal": "Personal Information",
+      "workAuth": "Work Authorization",
+      "details": "Application Details",
+      "review": "Review & Submit"
+    },
+    "personal": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State / Location Applying To",
+      "selectState": "Select a state"
+    },
+    "workAuth": {
+      "documentType": "Document Type",
+      "selectDocument": "Select document type",
+      "documentExpiration": "Document Expiration Date",
+      "countryOfOrigin": "Country of Origin",
+      "authorizedToWork": "I am authorized to work in the United States"
+    },
+    "details": {
+      "referralSource": "How did you hear about us?",
+      "selectReferral": "Select referral source",
+      "referralName": "Referral Name (if referred by someone)",
+      "positionInterest": "Position of Interest",
+      "availableStartDate": "Available Start Date"
+    },
+    "review": {
+      "title": "Review Your Application",
+      "consent": "I consent to the collection and use of my information for employment purposes. I certify that the information I have provided is accurate and complete.",
+      "submit": "Submit Application",
+      "edit": "Edit"
+    },
+    "success": {
+      "title": "Application Submitted!",
+      "message": "Thank you for applying to RBM Services Inc. Our HR team will review your application and contact you soon.",
+      "reference": "Your reference number"
+    },
+    "navigation": {
+      "next": "Next",
+      "back": "Back",
+      "step": "Step {current} of {total}"
+    },
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "mustAuthorize": "You must confirm work authorization to apply",
+      "mustConsent": "You must consent to submit your application"
+    },
+    "meta": {
+      "title": "Apply for a Job at RBM Services Inc.",
+      "description": "Apply online for cleaning and janitorial positions at RBM Services Inc. in Utah, Nevada, Arizona, and Texas. Bilingual application available in English and Spanish."
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "applicants": "Applicants",
+    "settings": "Settings",
+    "qrCodes": "QR Codes",
+    "logout": "Sign Out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalApplicants": "Total Applicants",
+    "hiredThisMonth": "Hired This Month",
+    "hireRate": "Hire Rate",
+    "inProcess": "In Process",
+    "portalPending": "Portal Submissions Pending",
+    "thisMonth": "This month",
+    "byState": "By State"
+  },
+  "applicants": {
+    "title": "Applicant Tracker",
+    "addNew": "Add Applicant",
+    "export": "Export to Excel",
+    "search": "Search by name or country...",
+    "filterStatus": "Filter by status",
+    "filterManager": "Filter by manager",
+    "filterHrRep": "Filter by HR rep",
+    "filterReferral": "Filter by referral",
+    "columns": {
+      "date": "Date",
+      "name": "Name",
+      "docType": "Document",
+      "docExpiry": "Expiration",
+      "country": "Country",
+      "status": "Status",
+      "referral": "Referral",
+      "manager": "Manager",
+      "hrRep": "HR Rep",
+      "notes": "Notes",
+      "source": "Source",
+      "actions": "Actions"
+    },
+    "source": {
+      "manual": "Manual",
+      "portal": "Portal"
+    },
+    "convert": "Convert to Applicant"
+  },
+  "settings": {
+    "title": "Settings",
+    "dropdowns": "Dropdown Options",
+    "managers": "Managers",
+    "hrReps": "HR Representatives",
+    "users": "Users",
+    "addOption": "Add Option",
+    "addManager": "Add Manager",
+    "addHrRep": "Add HR Rep",
+    "inviteUser": "Invite User",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "qrCodes": {
+    "title": "State QR Codes",
+    "description": "Download QR codes for each state's application portal. These can be printed and handed to managers for field recruiting.",
+    "download": "Download PNG",
+    "urlLabel": "Portal URL"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "noData": "No data found",
+    "allStates": "All States"
+  }
+}
