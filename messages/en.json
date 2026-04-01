@@ -1,0 +1,255 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "applicants": "Applicants",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Overview of applicant activity",
+    "stats": {
+      "totalApplicants": "Total Applicants This Month",
+      "hired": "Hired This Month",
+      "hireRate": "Hire Rate",
+      "inProcess": "In Process",
+      "portalPending": "Portal Pending Review"
+    },
+    "charts": {
+      "applicantsByState": "Applicants by State",
+      "statusBreakdown": "Status Breakdown",
+      "monthlyTrend": "Monthly Trend"
+    }
+  },
+  "applicants": {
+    "title": "Applicants",
+    "subtitle": "Manage and track all applicants",
+    "addNew": "Add Applicant",
+    "export": "Export",
+    "search": "Search applicants...",
+    "noResults": "No applicants found",
+    "columns": {
+      "name": "Name",
+      "state": "State",
+      "status": "Status",
+      "manager": "Manager",
+      "hrRep": "HR Rep",
+      "referralSource": "Referral Source",
+      "applicationDate": "Application Date",
+      "startDate": "Start Date",
+      "documentType": "Document Type",
+      "documentExpiration": "Doc Expiration",
+      "phone": "Phone",
+      "email": "Email",
+      "position": "Position",
+      "notes": "Notes",
+      "actions": "Actions"
+    },
+    "filters": {
+      "allStatuses": "All Statuses",
+      "allManagers": "All Managers",
+      "allHrReps": "All HR Reps",
+      "allSources": "All Sources",
+      "dateFrom": "From",
+      "dateTo": "To",
+      "clearFilters": "Clear Filters"
+    },
+    "modal": {
+      "addTitle": "Add New Applicant",
+      "editTitle": "Edit Applicant",
+      "save": "Save",
+      "cancel": "Cancel",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "email": "Email",
+      "state": "State",
+      "position": "Position",
+      "status": "Status",
+      "manager": "Manager",
+      "hrRep": "HR Rep",
+      "referralSource": "Referral Source",
+      "applicationDate": "Application Date",
+      "startDate": "Start Date",
+      "documentType": "Document Type",
+      "documentExpiration": "Document Expiration",
+      "notes": "Notes"
+    },
+    "pagination": {
+      "showing": "Showing",
+      "of": "of",
+      "results": "results",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "status": {
+    "applied": "Applied",
+    "screening": "Screening",
+    "interview": "Interview",
+    "offer": "Offer",
+    "hired": "Hired",
+    "rejected": "Rejected",
+    "withdrawn": "Withdrawn",
+    "in_process": "In Process",
+    "pending_docs": "Pending Docs",
+    "portal_submitted": "Portal Submitted"
+  },
+  "settings": {
+    "title": "Settings",
+    "tabs": {
+      "dropdowns": "Dropdowns",
+      "managers": "Managers",
+      "hrReps": "HR Representatives",
+      "users": "Users"
+    },
+    "dropdowns": {
+      "title": "Dropdown Options",
+      "category": "Category",
+      "labelEn": "Label (English)",
+      "labelEs": "Label (Spanish)",
+      "value": "Value",
+      "addOption": "Add Option",
+      "deleteOption": "Delete",
+      "categories": {
+        "status": "Application Status",
+        "document_type": "Document Type",
+        "referral_source": "Referral Source"
+      }
+    },
+    "managers": {
+      "title": "Managers",
+      "name": "Name",
+      "state": "State",
+      "email": "Email",
+      "phone": "Phone",
+      "addManager": "Add Manager",
+      "noManagers": "No managers found"
+    },
+    "hrReps": {
+      "title": "HR Representatives",
+      "name": "Name",
+      "state": "State",
+      "email": "Email",
+      "addHrRep": "Add HR Rep",
+      "noHrReps": "No HR reps found"
+    },
+    "users": {
+      "title": "System Users",
+      "email": "Email",
+      "role": "Role",
+      "state": "State",
+      "inviteUser": "Invite User",
+      "roles": {
+        "admin": "Admin",
+        "manager": "Manager",
+        "hr": "HR Representative",
+        "viewer": "Viewer"
+      }
+    }
+  },
+  "apply": {
+    "title": "Apply Now",
+    "subtitle": "Complete this form to apply. All fields marked with * are required.",
+    "selectLanguage": "Select Language",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit Application",
+    "submitting": "Submitting...",
+    "steps": {
+      "language": "Language",
+      "personalInfo": "Personal Info",
+      "workAuth": "Work Authorization",
+      "appDetails": "Application Details",
+      "review": "Review & Submit"
+    },
+    "personalInfo": {
+      "title": "Personal Information",
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "phone": "Phone Number *",
+      "email": "Email Address",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code"
+    },
+    "workAuth": {
+      "title": "Work Authorization",
+      "documentType": "Document Type *",
+      "documentNumber": "Document Number",
+      "expirationDate": "Expiration Date",
+      "authorized": "Are you authorized to work in the United States? *",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "appDetails": {
+      "title": "Application Details",
+      "position": "Position Applying For *",
+      "stateApplying": "Location / State *",
+      "referralSource": "How did you hear about us? *",
+      "referredBy": "Referred By (name)",
+      "availableDate": "Available Start Date",
+      "notes": "Additional Notes"
+    },
+    "review": {
+      "title": "Review Your Application",
+      "subtitle": "Please review your information before submitting.",
+      "personalInfo": "Personal Information",
+      "workAuth": "Work Authorization",
+      "appDetails": "Application Details",
+      "consent": "By submitting this form, I certify that the information provided is accurate and complete. *"
+    },
+    "success": {
+      "title": "Application Submitted!",
+      "message": "Thank you for applying. We will review your application and contact you soon.",
+      "reference": "Your reference number:",
+      "applyAgain": "Submit Another Application"
+    },
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number",
+      "submitFailed": "Submission failed. Please try again."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Sign in to the RBM Applicant Tracker",
+      "email": "Email Address",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signingIn": "Signing In...",
+      "forgotPassword": "Forgot password?",
+      "invalidCredentials": "Invalid email or password",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "add": "Add",
+    "update": "Update",
+    "remove": "Remove",
+    "noData": "No data available",
+    "rowsPerPage": "Rows per page",
+    "page": "Page",
+    "of": "of"
+  }
+}

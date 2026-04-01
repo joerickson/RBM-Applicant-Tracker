@@ -1,0 +1,255 @@
+{
+  "nav": {
+    "dashboard": "Panel",
+    "applicants": "Solicitantes",
+    "settings": "Configuración",
+    "logout": "Cerrar sesión",
+    "login": "Iniciar sesión"
+  },
+  "dashboard": {
+    "title": "Panel",
+    "subtitle": "Resumen de la actividad de solicitantes",
+    "stats": {
+      "totalApplicants": "Total de Solicitantes Este Mes",
+      "hired": "Contratados Este Mes",
+      "hireRate": "Tasa de Contratación",
+      "inProcess": "En Proceso",
+      "portalPending": "Portal Pendiente de Revisión"
+    },
+    "charts": {
+      "applicantsByState": "Solicitantes por Estado",
+      "statusBreakdown": "Distribución por Estado",
+      "monthlyTrend": "Tendencia Mensual"
+    }
+  },
+  "applicants": {
+    "title": "Solicitantes",
+    "subtitle": "Gestionar y rastrear todos los solicitantes",
+    "addNew": "Agregar Solicitante",
+    "export": "Exportar",
+    "search": "Buscar solicitantes...",
+    "noResults": "No se encontraron solicitantes",
+    "columns": {
+      "name": "Nombre",
+      "state": "Estado",
+      "status": "Estatus",
+      "manager": "Gerente",
+      "hrRep": "Rep. de RR.HH.",
+      "referralSource": "Fuente de Referencia",
+      "applicationDate": "Fecha de Solicitud",
+      "startDate": "Fecha de Inicio",
+      "documentType": "Tipo de Documento",
+      "documentExpiration": "Vencimiento de Doc.",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "position": "Puesto",
+      "notes": "Notas",
+      "actions": "Acciones"
+    },
+    "filters": {
+      "allStatuses": "Todos los Estatus",
+      "allManagers": "Todos los Gerentes",
+      "allHrReps": "Todos los Reps. RR.HH.",
+      "allSources": "Todas las Fuentes",
+      "dateFrom": "Desde",
+      "dateTo": "Hasta",
+      "clearFilters": "Limpiar Filtros"
+    },
+    "modal": {
+      "addTitle": "Agregar Nuevo Solicitante",
+      "editTitle": "Editar Solicitante",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "phone": "Teléfono",
+      "email": "Correo Electrónico",
+      "state": "Estado",
+      "position": "Puesto",
+      "status": "Estatus",
+      "manager": "Gerente",
+      "hrRep": "Rep. de RR.HH.",
+      "referralSource": "Fuente de Referencia",
+      "applicationDate": "Fecha de Solicitud",
+      "startDate": "Fecha de Inicio",
+      "documentType": "Tipo de Documento",
+      "documentExpiration": "Vencimiento del Documento",
+      "notes": "Notas"
+    },
+    "pagination": {
+      "showing": "Mostrando",
+      "of": "de",
+      "results": "resultados",
+      "previous": "Anterior",
+      "next": "Siguiente"
+    }
+  },
+  "status": {
+    "applied": "Aplicado",
+    "screening": "En Selección",
+    "interview": "Entrevista",
+    "offer": "Oferta",
+    "hired": "Contratado",
+    "rejected": "Rechazado",
+    "withdrawn": "Retirado",
+    "in_process": "En Proceso",
+    "pending_docs": "Docs Pendientes",
+    "portal_submitted": "Enviado por Portal"
+  },
+  "settings": {
+    "title": "Configuración",
+    "tabs": {
+      "dropdowns": "Listas Desplegables",
+      "managers": "Gerentes",
+      "hrReps": "Representantes de RR.HH.",
+      "users": "Usuarios"
+    },
+    "dropdowns": {
+      "title": "Opciones de Lista Desplegable",
+      "category": "Categoría",
+      "labelEn": "Etiqueta (Inglés)",
+      "labelEs": "Etiqueta (Español)",
+      "value": "Valor",
+      "addOption": "Agregar Opción",
+      "deleteOption": "Eliminar",
+      "categories": {
+        "status": "Estatus de Solicitud",
+        "document_type": "Tipo de Documento",
+        "referral_source": "Fuente de Referencia"
+      }
+    },
+    "managers": {
+      "title": "Gerentes",
+      "name": "Nombre",
+      "state": "Estado",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "addManager": "Agregar Gerente",
+      "noManagers": "No se encontraron gerentes"
+    },
+    "hrReps": {
+      "title": "Representantes de RR.HH.",
+      "name": "Nombre",
+      "state": "Estado",
+      "email": "Correo",
+      "addHrRep": "Agregar Rep. RR.HH.",
+      "noHrReps": "No se encontraron representantes"
+    },
+    "users": {
+      "title": "Usuarios del Sistema",
+      "email": "Correo",
+      "role": "Rol",
+      "state": "Estado",
+      "inviteUser": "Invitar Usuario",
+      "roles": {
+        "admin": "Administrador",
+        "manager": "Gerente",
+        "hr": "Representante de RR.HH.",
+        "viewer": "Observador"
+      }
+    }
+  },
+  "apply": {
+    "title": "Aplicar Ahora",
+    "subtitle": "Complete este formulario para aplicar. Todos los campos marcados con * son obligatorios.",
+    "selectLanguage": "Seleccionar Idioma",
+    "continue": "Continuar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar Solicitud",
+    "submitting": "Enviando...",
+    "steps": {
+      "language": "Idioma",
+      "personalInfo": "Info Personal",
+      "workAuth": "Autorización de Trabajo",
+      "appDetails": "Detalles de Solicitud",
+      "review": "Revisar y Enviar"
+    },
+    "personalInfo": {
+      "title": "Información Personal",
+      "firstName": "Nombre *",
+      "lastName": "Apellido *",
+      "phone": "Número de Teléfono *",
+      "email": "Correo Electrónico",
+      "address": "Dirección",
+      "city": "Ciudad",
+      "state": "Estado",
+      "zip": "Código Postal"
+    },
+    "workAuth": {
+      "title": "Autorización de Trabajo",
+      "documentType": "Tipo de Documento *",
+      "documentNumber": "Número de Documento",
+      "expirationDate": "Fecha de Vencimiento",
+      "authorized": "¿Está autorizado para trabajar en los Estados Unidos? *",
+      "yes": "Sí",
+      "no": "No"
+    },
+    "appDetails": {
+      "title": "Detalles de la Solicitud",
+      "position": "Puesto al que Aplica *",
+      "stateApplying": "Ubicación / Estado *",
+      "referralSource": "¿Cómo se enteró de nosotros? *",
+      "referredBy": "Referido por (nombre)",
+      "availableDate": "Fecha de Disponibilidad",
+      "notes": "Notas Adicionales"
+    },
+    "review": {
+      "title": "Revise su Solicitud",
+      "subtitle": "Por favor revise su información antes de enviar.",
+      "personalInfo": "Información Personal",
+      "workAuth": "Autorización de Trabajo",
+      "appDetails": "Detalles de la Solicitud",
+      "consent": "Al enviar este formulario, certifico que la información proporcionada es precisa y completa. *"
+    },
+    "success": {
+      "title": "¡Solicitud Enviada!",
+      "message": "Gracias por aplicar. Revisaremos su solicitud y nos pondremos en contacto pronto.",
+      "reference": "Su número de referencia:",
+      "applyAgain": "Enviar Otra Solicitud"
+    },
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Por favor ingrese un correo electrónico válido",
+      "invalidPhone": "Por favor ingrese un número de teléfono válido",
+      "submitFailed": "Error al enviar. Por favor intente de nuevo."
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "subtitle": "Inicia sesión en el Rastreador de Solicitantes RBM",
+      "email": "Correo Electrónico",
+      "password": "Contraseña",
+      "signIn": "Iniciar Sesión",
+      "signingIn": "Iniciando Sesión...",
+      "forgotPassword": "¿Olvidó su contraseña?",
+      "invalidCredentials": "Correo o contraseña inválidos",
+      "error": "Ocurrió un error. Por favor intente de nuevo."
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "import": "Importar",
+    "add": "Agregar",
+    "update": "Actualizar",
+    "remove": "Eliminar",
+    "noData": "No hay datos disponibles",
+    "rowsPerPage": "Filas por página",
+    "page": "Página",
+    "of": "de"
+  }
+}
